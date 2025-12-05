@@ -44,9 +44,9 @@ def create_test_data_excel():
     # 测试数据
     test_cases = [
         # case_id, case_name, username, password, expected, description, run
-        ['TC001', '正确的账号和密码', 'admin', 'user123456', 'success', '使用正确的超级管理员账号和密码登录', 'yes'],
+        ['TC001', '正确的账号和密码', 'test1', 'test@user.c', 'success', '使用正确的超级管理员账号和密码登录', 'yes'],
         ['TC002', '错误的账号', 'wronguser', 'Ld@513.c', 'fail', '使用错误的账号，正确的密码', 'yes'],
-        ['TC003', '错误的密码', '513admin', 'wrongpassword', 'fail', '使用正确的账号，错误的密码', 'yes'],
+        ['TC003', '错误的密码', 'test1', 'wrongpassword', 'fail', '使用正确的账号，错误的密码', 'yes'],
         ['TC004', '账号和密码都错误', 'wronguser', 'wrongpassword', 'fail', '使用错误的账号和错误的密码', 'yes'],
         ['TC005', '空账号', '', 'user123456', 'fail', '账号为空，密码正确', 'yes'],
         ['TC006', '空密码', 'admin', '', 'fail', '账号正确，密码为空', 'yes'],

@@ -26,12 +26,12 @@ IMPLICIT_WAIT = 10  # 隐式等待时间(秒)
 PAGE_LOAD_TIMEOUT = 30  # 页面加载超时时间(秒)
 
 # 登录页面URL
-LOGIN_URL = 'http://192.168.5.113:3000/login'
+LOGIN_URL = 'https://demo.com/login'
 
 # 超级管理员账号信息（用于验证）
 SUPER_ADMIN = {
-    'username': 'admin',
-    'password': 'user123456'
+    'username': 'test1',
+    'password': 'test@user.c'
 }
 
 # 错误提示信息
