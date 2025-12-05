@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 测试报告
+reports/
+*.log
+
+# 截图
+screenshots/
+
+# 测试数据（如果不想提交）
+# test_data/*.xlsx
+
+# pytest
+.pytest_cache/
+.cache/
+
+# Allure
+allure-results/
+allure-report/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ChromeDriver等
+chromedriver.exe
+geckodriver.exe
+msedgedriver.exe
